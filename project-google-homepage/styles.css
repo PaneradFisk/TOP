@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    display: inline-block;
+}
+
+#navbar-leftside {
+    padding: 15px;
+}
+
+#button-signin {
+    background-color: rgb(66, 133, 244);
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px
+}
+
+#logo {
+    height: 92px;
+}
