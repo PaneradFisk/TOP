@@ -1,19 +1,27 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
+body {
+    width: 100%;
+    height: 300px;
+    background-color: lightblue;
 }
 
 nav {
+    background-color: green;
     display: inline-block;
+    padding: 15px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    width: 100%;
 }
 
-#navbar-leftside {
+footer {
+    background-color: grey;
+    display: inline-block;
+    position: fixed;
     padding: 15px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }
 
 #button-signin {
@@ -23,9 +31,53 @@ nav {
     padding: 10px;
     color: white;
     font-weight: 700;
-    font-size: 13px
+    font-size: 13px;
+    position: relative;
+    left: 0px;
 }
 
-#logo {
+.midcontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
+
+#Glogo {
     height: 92px;
 }
+
+.logo{
+    position: absolute
+}
+
+.search-field {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+.search-buttons {
+    position: absolute;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+  }
+
+.topright {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    padding: 15px;
+}
+
